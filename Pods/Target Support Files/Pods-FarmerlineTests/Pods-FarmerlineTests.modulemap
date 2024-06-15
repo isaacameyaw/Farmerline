@@ -1,0 +1,6 @@
+framework module Pods_FarmerlineTests {
+  umbrella header "Pods-FarmerlineTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

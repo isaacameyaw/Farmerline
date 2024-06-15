@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289780F4C0B9636492B574C4 /* Pods_Farmerline_FarmerlineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1419B4B69CEB28D9E5FBB4 /* Pods_Farmerline_FarmerlineUITests.framework */; };
+		3DAC163B2C1B3B3600688D85 /* SelectSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC163A2C1B3B3500688D85 /* SelectSurveyViewController.swift */; };
+		3DD40DE72C1B719300DCDFF4 /* SurveyObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD40DE62C1B719300DCDFF4 /* SurveyObj.swift */; };
+		3DD40DE92C1B92C100DCDFF4 /* SurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD40DE82C1B92C100DCDFF4 /* SurveyVC.swift */; };
+		3DF6380E2C19D87A0082010F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6380D2C19D87A0082010F /* AppDelegate.swift */; };
+		3DF638102C19D87A0082010F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6380F2C19D87A0082010F /* SceneDelegate.swift */; };
+		3DF638122C19D87A0082010F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF638112C19D87A0082010F /* ViewController.swift */; };
+		3DF638152C19D87A0082010F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3DF638142C19D87A0082010F /* Base */; };
+		3DF638172C19D87E0082010F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF638162C19D87E0082010F /* Assets.xcassets */; };
+		3DF6381A2C19D87E0082010F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3DF638192C19D87E0082010F /* Base */; };
+		3DF638252C19D87E0082010F /* FarmerlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF638242C19D87E0082010F /* FarmerlineTests.swift */; };
+		3DF6382F2C19D87E0082010F /* FarmerlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6382E2C19D87E0082010F /* FarmerlineUITests.swift */; };
+		3DF638312C19D87E0082010F /* FarmerlineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF638302C19D87E0082010F /* FarmerlineUITestsLaunchTests.swift */; };
+		7B0D467D55640F1E2DEE1FE0 /* Pods_FarmerlineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2410E27E80D9EA90CC74A45 /* Pods_FarmerlineTests.framework */; };
+		D0093E1276CD78C1630BE90B /* Pods_Farmerline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50701FA29B8EC2A0FB0D5C /* Pods_Farmerline.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF638212C19D87E0082010F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF638022C19D87A0082010F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF638092C19D87A0082010F;
+			remoteInfo = Farmerline;
+		};
+		3DF6382B2C19D87E0082010F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF638022C19D87A0082010F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF638092C19D87A0082010F;
+			remoteInfo = Farmerline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DAC163A2C1B3B3500688D85 /* SelectSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSurveyViewController.swift; sourceTree = "<group>"; };
+		3DD40DE62C1B719300DCDFF4 /* SurveyObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyObj.swift; sourceTree = "<group>"; };
+		3DD40DE82C1B92C100DCDFF4 /* SurveyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyVC.swift; sourceTree = "<group>"; };
+		3DF6380A2C19D87A0082010F /* Farmerline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farmerline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF6380D2C19D87A0082010F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DF6380F2C19D87A0082010F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DF638112C19D87A0082010F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF638142C19D87A0082010F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF638162C19D87E0082010F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DF638192C19D87E0082010F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DF6381B2C19D87E0082010F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF638202C19D87E0082010F /* FarmerlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmerlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF638242C19D87E0082010F /* FarmerlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerlineTests.swift; sourceTree = "<group>"; };
+		3DF6382A2C19D87E0082010F /* FarmerlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmerlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF6382E2C19D87E0082010F /* FarmerlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerlineUITests.swift; sourceTree = "<group>"; };
+		3DF638302C19D87E0082010F /* FarmerlineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerlineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49CA5E06AA547CE8975560AA /* Pods-Farmerline-FarmerlineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farmerline-FarmerlineUITests.release.xcconfig"; path = "Target Support Files/Pods-Farmerline-FarmerlineUITests/Pods-Farmerline-FarmerlineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BE141044493484ACE51BEE6 /* Pods-FarmerlineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerlineTests.debug.xcconfig"; path = "Target Support Files/Pods-FarmerlineTests/Pods-FarmerlineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A58AE003E3EF23522F08EF00 /* Pods-FarmerlineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerlineTests.release.xcconfig"; path = "Target Support Files/Pods-FarmerlineTests/Pods-FarmerlineTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6652B576EB5323180883141 /* Pods-Farmerline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farmerline.release.xcconfig"; path = "Target Support Files/Pods-Farmerline/Pods-Farmerline.release.xcconfig"; sourceTree = "<group>"; };
+		C9CFB9EB2B803140524188CD /* Pods-Farmerline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farmerline.debug.xcconfig"; path = "Target Support Files/Pods-Farmerline/Pods-Farmerline.debug.xcconfig"; sourceTree = "<group>"; };
+		D2410E27E80D9EA90CC74A45 /* Pods_FarmerlineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmerlineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AF4B71A3F83A340456CF7E /* Pods-Farmerline-FarmerlineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farmerline-FarmerlineUITests.debug.xcconfig"; path = "Target Support Files/Pods-Farmerline-FarmerlineUITests/Pods-Farmerline-FarmerlineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED50701FA29B8EC2A0FB0D5C /* Pods_Farmerline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Farmerline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1419B4B69CEB28D9E5FBB4 /* Pods_Farmerline_FarmerlineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Farmerline_FarmerlineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF638072C19D87A0082010F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0093E1276CD78C1630BE90B /* Pods_Farmerline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF6381D2C19D87E0082010F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0D467D55640F1E2DEE1FE0 /* Pods_FarmerlineTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF638272C19D87E0082010F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289780F4C0B9636492B574C4 /* Pods_Farmerline_FarmerlineUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C5FCA296DE92124EDCC4BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED50701FA29B8EC2A0FB0D5C /* Pods_Farmerline.framework */,
+				EF1419B4B69CEB28D9E5FBB4 /* Pods_Farmerline_FarmerlineUITests.framework */,
+				D2410E27E80D9EA90CC74A45 /* Pods_FarmerlineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DF638012C19D87A0082010F = {
+			isa = PBXGroup;
+			children = (
+				3DF6380C2C19D87A0082010F /* Farmerline */,
+				3DF638232C19D87E0082010F /* FarmerlineTests */,
+				3DF6382D2C19D87E0082010F /* FarmerlineUITests */,
+				3DF6380B2C19D87A0082010F /* Products */,
+				B4973BE8F96FAD6301594CF8 /* Pods */,
+				06C5FCA296DE92124EDCC4BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF6380B2C19D87A0082010F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF6380A2C19D87A0082010F /* Farmerline.app */,
+				3DF638202C19D87E0082010F /* FarmerlineTests.xctest */,
+				3DF6382A2C19D87E0082010F /* FarmerlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF6380C2C19D87A0082010F /* Farmerline */ = {
+			isa = PBXGroup;
+			children = (
+				3DF6380D2C19D87A0082010F /* AppDelegate.swift */,
+				3DF6380F2C19D87A0082010F /* SceneDelegate.swift */,
+				3DD40DE82C1B92C100DCDFF4 /* SurveyVC.swift */,
+				3DF638112C19D87A0082010F /* ViewController.swift */,
+				3DD40DE62C1B719300DCDFF4 /* SurveyObj.swift */,
+				3DAC163A2C1B3B3500688D85 /* SelectSurveyViewController.swift */,
+				3DF638132C19D87A0082010F /* Main.storyboard */,
+				3DF638162C19D87E0082010F /* Assets.xcassets */,
+				3DF638182C19D87E0082010F /* LaunchScreen.storyboard */,
+				3DF6381B2C19D87E0082010F /* Info.plist */,
+			);
+			path = Farmerline;
+			sourceTree = "<group>";
+		};
+		3DF638232C19D87E0082010F /* FarmerlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF638242C19D87E0082010F /* FarmerlineTests.swift */,
+			);
+			path = FarmerlineTests;
+			sourceTree = "<group>";
+		};
+		3DF6382D2C19D87E0082010F /* FarmerlineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF6382E2C19D87E0082010F /* FarmerlineUITests.swift */,
+				3DF638302C19D87E0082010F /* FarmerlineUITestsLaunchTests.swift */,
+			);
+			path = FarmerlineUITests;
+			sourceTree = "<group>";
+		};
+		B4973BE8F96FAD6301594CF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFB9EB2B803140524188CD /* Pods-Farmerline.debug.xcconfig */,
+				C6652B576EB5323180883141 /* Pods-Farmerline.release.xcconfig */,
+				E8AF4B71A3F83A340456CF7E /* Pods-Farmerline-FarmerlineUITests.debug.xcconfig */,
+				49CA5E06AA547CE8975560AA /* Pods-Farmerline-FarmerlineUITests.release.xcconfig */,
+				7BE141044493484ACE51BEE6 /* Pods-FarmerlineTests.debug.xcconfig */,
+				A58AE003E3EF23522F08EF00 /* Pods-FarmerlineTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF638092C19D87A0082010F /* Farmerline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF638342C19D87E0082010F /* Build configuration list for PBXNativeTarget "Farmerline" */;
+			buildPhases = (
+				3311A5BDE8AEFE113B26ADA4 /* [CP] Check Pods Manifest.lock */,
+				3DF638062C19D87A0082010F /* Sources */,
+				3DF638072C19D87A0082010F /* Frameworks */,
+				3DF638082C19D87A0082010F /* Resources */,
+				DE0FC530781692FE54EF005D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Farmerline;
+			productName = Farmerline;
+			productReference = 3DF6380A2C19D87A0082010F /* Farmerline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF6381F2C19D87E0082010F /* FarmerlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF638372C19D87E0082010F /* Build configuration list for PBXNativeTarget "FarmerlineTests" */;
+			buildPhases = (
+				7898FF17DE6A90AADC4CFAA5 /* [CP] Check Pods Manifest.lock */,
+				3DF6381C2C19D87E0082010F /* Sources */,
+				3DF6381D2C19D87E0082010F /* Frameworks */,
+				3DF6381E2C19D87E0082010F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF638222C19D87E0082010F /* PBXTargetDependency */,
+			);
+			name = FarmerlineTests;
+			productName = FarmerlineTests;
+			productReference = 3DF638202C19D87E0082010F /* FarmerlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DF638292C19D87E0082010F /* FarmerlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF6383A2C19D87E0082010F /* Build configuration list for PBXNativeTarget "FarmerlineUITests" */;
+			buildPhases = (
+				2CB30918FF16693EA0522C36 /* [CP] Check Pods Manifest.lock */,
+				3DF638262C19D87E0082010F /* Sources */,
+				3DF638272C19D87E0082010F /* Frameworks */,
+				3DF638282C19D87E0082010F /* Resources */,
+				2CDCAC97C66B799AF38A1BED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF6382C2C19D87E0082010F /* PBXTargetDependency */,
+			);
+			name = FarmerlineUITests;
+			productName = FarmerlineUITests;
+			productReference = 3DF6382A2C19D87E0082010F /* FarmerlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF638022C19D87A0082010F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3DF638092C19D87A0082010F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3DF6381F2C19D87E0082010F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3DF638092C19D87A0082010F;
+					};
+					3DF638292C19D87E0082010F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3DF638092C19D87A0082010F;
+					};
+				};
+			};
+			buildConfigurationList = 3DF638052C19D87A0082010F /* Build configuration list for PBXProject "Farmerline" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF638012C19D87A0082010F;
+			productRefGroup = 3DF6380B2C19D87A0082010F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF638092C19D87A0082010F /* Farmerline */,
+				3DF6381F2C19D87E0082010F /* FarmerlineTests */,
+				3DF638292C19D87E0082010F /* FarmerlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF638082C19D87A0082010F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF638172C19D87E0082010F /* Assets.xcassets in Resources */,
+				3DF6381A2C19D87E0082010F /* Base in Resources */,
+				3DF638152C19D87A0082010F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF6381E2C19D87E0082010F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF638282C19D87E0082010F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB30918FF16693EA0522C36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Farmerline-FarmerlineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CDCAC97C66B799AF38A1BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Farmerline-FarmerlineUITests/Pods-Farmerline-FarmerlineUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Farmerline-FarmerlineUITests/Pods-Farmerline-FarmerlineUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Farmerline-FarmerlineUITests/Pods-Farmerline-FarmerlineUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3311A5BDE8AEFE113B26ADA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Farmerline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7898FF17DE6A90AADC4CFAA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmerlineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0FC530781692FE54EF005D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Farmerline/Pods-Farmerline-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Farmerline/Pods-Farmerline-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Farmerline/Pods-Farmerline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF638062C19D87A0082010F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAC163B2C1B3B3600688D85 /* SelectSurveyViewController.swift in Sources */,
+				3DF638122C19D87A0082010F /* ViewController.swift in Sources */,
+				3DF6380E2C19D87A0082010F /* AppDelegate.swift in Sources */,
+				3DD40DE72C1B719300DCDFF4 /* SurveyObj.swift in Sources */,
+				3DF638102C19D87A0082010F /* SceneDelegate.swift in Sources */,
+				3DD40DE92C1B92C100DCDFF4 /* SurveyVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF6381C2C19D87E0082010F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF638252C19D87E0082010F /* FarmerlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF638262C19D87E0082010F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF6382F2C19D87E0082010F /* FarmerlineUITests.swift in Sources */,
+				3DF638312C19D87E0082010F /* FarmerlineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF638222C19D87E0082010F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF638092C19D87A0082010F /* Farmerline */;
+			targetProxy = 3DF638212C19D87E0082010F /* PBXContainerItemProxy */;
+		};
+		3DF6382C2C19D87E0082010F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF638092C19D87A0082010F /* Farmerline */;
+			targetProxy = 3DF6382B2C19D87E0082010F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF638132C19D87A0082010F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF638142C19D87A0082010F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DF638182C19D87E0082010F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF638192C19D87E0082010F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF638322C19D87E0082010F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DF638332C19D87E0082010F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF638352C19D87E0082010F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CFB9EB2B803140524188CD /* Pods-Farmerline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3PKAW28RW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Farmerline/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugsoft.farmer.Farmerline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DF638362C19D87E0082010F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6652B576EB5323180883141 /* Pods-Farmerline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3PKAW28RW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Farmerline/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugsoft.farmer.Farmerline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DF638382C19D87E0082010F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE141044493484ACE51BEE6 /* Pods-FarmerlineTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3PKAW28RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugsoft.farmer.FarmerlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farmerline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Farmerline";
+			};
+			name = Debug;
+		};
+		3DF638392C19D87E0082010F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58AE003E3EF23522F08EF00 /* Pods-FarmerlineTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3PKAW28RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugsoft.farmer.FarmerlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farmerline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Farmerline";
+			};
+			name = Release;
+		};
+		3DF6383B2C19D87E0082010F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AF4B71A3F83A340456CF7E /* Pods-Farmerline-FarmerlineUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3PKAW28RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugsoft.farmer.FarmerlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Farmerline;
+			};
+			name = Debug;
+		};
+		3DF6383C2C19D87E0082010F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CA5E06AA547CE8975560AA /* Pods-Farmerline-FarmerlineUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3PKAW28RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugsoft.farmer.FarmerlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Farmerline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF638052C19D87A0082010F /* Build configuration list for PBXProject "Farmerline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF638322C19D87E0082010F /* Debug */,
+				3DF638332C19D87E0082010F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF638342C19D87E0082010F /* Build configuration list for PBXNativeTarget "Farmerline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF638352C19D87E0082010F /* Debug */,
+				3DF638362C19D87E0082010F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF638372C19D87E0082010F /* Build configuration list for PBXNativeTarget "FarmerlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF638382C19D87E0082010F /* Debug */,
+				3DF638392C19D87E0082010F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF6383A2C19D87E0082010F /* Build configuration list for PBXNativeTarget "FarmerlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF6383B2C19D87E0082010F /* Debug */,
+				3DF6383C2C19D87E0082010F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF638022C19D87A0082010F /* Project object */;
+}

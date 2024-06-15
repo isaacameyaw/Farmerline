@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.9.1)
+  - RadioGroup (1.4.8):
+    - SweeterSwift
+  - SweeterSwift (1.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - RadioGroup
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RadioGroup
+    - SweeterSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  RadioGroup: 90dd4108cc0e7a07050efdff853c4164c677c429
+  SweeterSwift: 12f5b24e2410ea63e71f1ac089f8235eb5a12ecc
+
+PODFILE CHECKSUM: 321bc14c8c9002f723ee87432bfc919c2afbc5c6
+
+COCOAPODS: 1.15.2

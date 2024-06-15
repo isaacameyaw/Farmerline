@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Farmerline/Pods-Farmerline-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/RadioGroup/RadioGroup.framework
+${BUILT_PRODUCTS_DIR}/SweeterSwift/SweeterSwift.framework
